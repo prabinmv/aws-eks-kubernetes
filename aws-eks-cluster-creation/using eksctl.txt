@@ -33,3 +33,4 @@ eksctl create nodegroup --cluster=eks1 \
                        --full-ecr-access \
                        --appmesh-access \
                        --alb-ingress-access 
+                       --node-private-networking 
