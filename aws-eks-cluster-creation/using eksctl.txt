@@ -19,7 +19,7 @@ eksctl utils associate-iam-oidc-provider \
 # Create Public Node Group   
 eksctl create nodegroup --cluster=eks1 \
                        --region=us-east-2 \
-                       --name=eks1-ng-public1 \
+                       --name=eks1-ng-private1 \
                        --node-type=t3.medium \
                        --nodes=2 \
                        --nodes-min=2 \
