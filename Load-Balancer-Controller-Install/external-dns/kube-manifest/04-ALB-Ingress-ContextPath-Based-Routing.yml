@@ -20,10 +20,10 @@ metadata:
     alb.ingress.kubernetes.io/unhealthy-threshold-count: '2'
     ## SSL Settings
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}, {"HTTP":80}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-2:975050222777:certificate/5cec2bb1-ea22-4ace-81af-543e8c9da489
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-2:975050222777:certificate/9d7b7215-17a6-495d-ba96-6965592fd4b5
     alb.ingress.kubernetes.io/ssl-redirect: '443'
 
-    external-dns.alpha.kubernetes.io/hostname: soft.cloud9aws.in, rms.cloud9aws.in
+    external-dns.alpha.kubernetes.io/hostname: soft.kloudoc8s.in, rms.kloudoc8s.in
 spec:
   ingressClassName: my-aws-ingress-class # Ingress Class                       
   rules:
