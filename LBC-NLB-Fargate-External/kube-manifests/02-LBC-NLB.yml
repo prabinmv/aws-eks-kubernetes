@@ -26,13 +26,13 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: Environment=dev,Team=test
 
     # TLS
-    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:us-east-2:975050222777:certificate/5cec2bb1-ea22-4ace-81af-543e8c9da489
+    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:us-east-2:975050222777:certificate/9d7b7215-17a6-495d-ba96-6965592fd4b5
     service.beta.kubernetes.io/aws-load-balancer-ssl-ports: 443, # Specify this annotation if you need both TLS and non-TLS listeners on the same load balancer
     service.beta.kubernetes.io/aws-load-balancer-ssl-negotiation-policy: ELBSecurityPolicy-TLS13-1-2-2021-06
     service.beta.kubernetes.io/aws-load-balancer-backend-protocol: tcp
 
     # External DNS - For creating a Record Set in Route53
-    external-dns.alpha.kubernetes.io/hostname: nlb901.cloud9aws.in
+    external-dns.alpha.kubernetes.io/hostname: nlb901.kloudoc8s.in
 spec:
   type: LoadBalancer
   selector:
