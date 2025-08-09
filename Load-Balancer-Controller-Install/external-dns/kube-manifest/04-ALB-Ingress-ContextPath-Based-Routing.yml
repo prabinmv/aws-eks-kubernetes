@@ -23,7 +23,7 @@ metadata:
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-2:975050222777:certificate/9d7b7215-17a6-495d-ba96-6965592fd4b5
     alb.ingress.kubernetes.io/ssl-redirect: '443'
 
-    external-dns.alpha.kubernetes.io/hostname: soft.kloudoc8s.in, rms.kloudoc8s.in
+    external-dns.alpha.kubernetes.io/hostname: virtual.kloudoc8s.in, rms.kloudoc8s.in
 spec:
   ingressClassName: my-aws-ingress-class # Ingress Class                       
   rules:
