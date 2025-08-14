@@ -36,6 +36,4 @@ spec:
               value: "xray-service.default:2000"    
             - name: AWS_XRAY_CONTEXT_MISSING 
               value: "LOG_ERROR"  # Log an error and continue, Ideally RUNTIME_ERROR – Throw a runtime exception which is default option if not configured                                            
-          livenessProbe:
-            exec:
-              command:
+          
