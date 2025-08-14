@@ -6,7 +6,7 @@ metadata:
   labels:
     app: usermgmt-restapp
     runon: fargate
-  namespace: ns-ums
+  # namespace: ns-ums
   annotations:
     # Load Balancer Name
     alb.ingress.kubernetes.io/load-balancer-name: eks-microservices-demo
